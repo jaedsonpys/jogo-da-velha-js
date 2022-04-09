@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    font-family: 'sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.gameArea button {
+    margin-top: 10px;
+}
+
+.table {
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    padding: 0px;
+}
+
+.row div {
+    width: 100px;
+    height: 100px;
+    font-size: 4rem;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
