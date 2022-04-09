@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic Tac Toe</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Tic Tac Toe</h1>
+            <p id="player">Vez do jogador X</p>
+        </header>
+        <div class="gameArea">
+            <div class="table">
+                <div class="row">
+                    <div id="1" onclick="clickDiv(0, 0, 1)"></div>
+                    <div id="2" onclick="clickDiv(1, 0, 2)"></div>
+                    <div id="3" onclick="clickDiv(2, 0, 3)"></div>
+                </div>
+                <div class="row">
+                    <div id="4" onclick="clickDiv(0, 1, 4)"></div>
+                    <div id="5" onclick="clickDiv(1, 1, 5)"></div>
+                    <div id="6" onclick="clickDiv(2, 1, 6)"></div>
+                </div>
+                <div class="row">
+                    <div id="7" onclick="clickDiv(0, 2, 7)"></div>
+                    <div id="8" onclick="clickDiv(1, 2, 8)"></div>
+                    <div id="9" onclick="clickDiv(2, 2, 9)"></div>
+                </div>
+            </div>
+            <button onclick="restartGame()">Reiniciar jogo</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
