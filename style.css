@@ -32,6 +32,10 @@ main header {
     padding-top: 20px;
 }
 
+#player span {
+    color: green;
+}
+
 .gameArea button {
     margin-top: 10px;
 }
