@@ -18,13 +18,13 @@ function clickDiv(house, row, id) {
         usedPositions.push(id)
 
         if (playerXRound) {
-            document.getElementById('player').innerText = 'Vez do jogador X'
+            document.getElementById('player').innerText = 'Vez do jogador O'
             document.getElementById(id).innerText = 'X'
     
             gameMap[row][house] = playerX
             playerXRound = false
         } else {
-            document.getElementById('player').innerText = 'Vez do jogador O'
+            document.getElementById('player').innerText = 'Vez do jogador X'
             document.getElementById(id).innerText = 'O'
     
             gameMap[row][house] = playerO
