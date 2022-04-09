@@ -36,6 +36,11 @@ main header {
     color: green;
 }
 
+.github-profile {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
 .gameArea button {
     margin-top: 10px;
 }
